@@ -1,0 +1,99 @@
+2017-10-14T13:38:33.415+0530 I CONTROL  [initandlisten] MongoDB starting : pid=4348 port=27017 dbpath=C:\Users\jagam\git\LMCerertificationsDB\data\db 64-bit host=LAPTOP-R3HMSK5P
+2017-10-14T13:38:33.415+0530 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-14T13:38:33.415+0530 I CONTROL  [initandlisten] db version v3.4.9
+2017-10-14T13:38:33.415+0530 I CONTROL  [initandlisten] git version: 876ebee8c7dd0e2d992f36a848ff4dc50ee6603e
+2017-10-14T13:38:33.416+0530 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-10-14T13:38:33.416+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-14T13:38:33.416+0530 I CONTROL  [initandlisten] modules: none
+2017-10-14T13:38:33.416+0530 I CONTROL  [initandlisten] build environment:
+2017-10-14T13:38:33.416+0530 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-14T13:38:33.416+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-14T13:38:33.416+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-14T13:38:33.416+0530 I CONTROL  [initandlisten] options: { net: { http: { RESTInterfaceEnabled: true, enabled: true } }, storage: { dbPath: "C:\Users\jagam\git\LMCerertificationsDB\data\db", directoryPerDB: true }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\jagam\git\LMCerertificationsDB\log\mongoDB.log" } }
+2017-10-14T13:38:33.420+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3526M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-14T13:38:34.331+0530 I CONTROL  [initandlisten] 
+2017-10-14T13:38:34.331+0530 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-10-14T13:38:34.331+0530 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-10-14T13:38:34.331+0530 I CONTROL  [initandlisten] 
+2017-10-14T13:38:34.350+0530 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-14T13:38:35.444+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/jagam/git/LMCerertificationsDB/data/db/diagnostic.data'
+2017-10-14T13:38:35.953+0530 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+2017-10-14T13:38:35.953+0530 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2017-10-14T13:38:35.977+0530 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+2017-10-14T13:38:35.983+0530 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+2017-10-14T13:38:35.986+0530 I NETWORK  [thread1] waiting for connections on port 27017
+2017-10-14T13:45:26.824+0530 I CONTROL  [thread2] Ctrl-C signal
+2017-10-14T13:45:26.824+0530 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2017-10-14T13:45:26.825+0530 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-10-14T13:45:26.825+0530 I NETWORK  [consoleTerminate] closing listening socket: 544
+2017-10-14T13:45:26.825+0530 I NETWORK  [consoleTerminate] closing listening socket: 548
+2017-10-14T13:45:26.843+0530 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-10-14T13:45:26.843+0530 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-10-14T13:45:26.871+0530 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-10-14T13:45:27.010+0530 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-10-14T13:45:27.010+0530 I CONTROL  [consoleTerminate] now exiting
+2017-10-14T13:45:27.010+0530 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-10-14T13:45:27.010+0530 2017-10-14T13:50:41.383+0530 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-14T13:50:41.812+0530 I CONTROL  [initandlisten] MongoDB starting : pid=11820 port=27017 dbpath=C:\Users\jagam\git\LMCerertificationsDB\data\db 64-bit host=LAPTOP-R3HMSK5P
+2017-10-14T13:50:41.812+0530 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-14T13:50:41.812+0530 I CONTROL  [initandlisten] db version v3.4.9
+2017-10-14T13:50:41.812+0530 I CONTROL  [initandlisten] git version: 876ebee8c7dd0e2d992f36a848ff4dc50ee6603e
+2017-10-14T13:50:41.813+0530 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-10-14T13:50:41.813+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-14T13:50:41.813+0530 I CONTROL  [initandlisten] modules: none
+2017-10-14T13:50:41.813+0530 I CONTROL  [initandlisten] build environment:
+2017-10-14T13:50:41.813+0530 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-14T13:50:41.813+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-14T13:50:41.813+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-14T13:50:41.813+0530 I CONTROL  [initandlisten] options: { net: { http: { RESTInterfaceEnabled: true, enabled: true } }, storage: { dbPath: "C:\Users\jagam\git\LMCerertificationsDB\data\db", directoryPerDB: true }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\jagam\git\LMCerertificationsDB\log\mongoDB.log" } }
+2017-10-14T13:50:41.815+0530 I -        [initandlisten] Detected data files in C:\Users\jagam\git\LMCerertificationsDB\data\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-14T13:50:41.816+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3526M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-14T13:50:42.591+0530 I CONTROL  [initandlisten] 
+2017-10-14T13:50:42.591+0530 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-10-14T13:50:42.591+0530 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-10-14T13:50:42.591+0530 I CONTROL  [initandlisten] 
+2017-10-14T13:50:42.594+0530 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-14T13:50:42.731+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/jagam/git/LMCerertificationsDB/data/db/diagnostic.data'
+2017-10-14T13:50:42.733+0530 I NETWORK  [thread1] waiting for connections on port 27017
+2017-10-14T13:52:45.971+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:60921 #1 (1 connection now open)
+2017-10-14T13:52:46.314+0530 I NETWORK  [conn1] received client metadata from 127.0.0.1:60921 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.9" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-10-14T13:53:00.832+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:60925 #2 (2 connections now open)
+2017-10-14T13:53:00.834+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:60926 #3 (3 connections now open)
+2017-10-14T13:53:00.835+0530 I -        [conn2] end connection 127.0.0.1:60925 (3 connections now open)
+2017-10-14T13:53:00.947+0530 I -        [conn3] end connection 127.0.0.1:60926 (2 connections now open)
+2017-10-14T13:53:01.083+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:60927 #4 (2 connections now open)
+2017-10-14T13:53:01.085+0530 I -        [conn4] end connection 127.0.0.1:60927 (2 connections now open)
+2017-10-14T13:54:11.851+0530 I NETWORK  [websvr] Socket recv() A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 127.0.0.1:60939
+2017-10-14T14:03:16.869+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:61014 #16 (2 connections now open)
+2017-10-14T14:03:16.873+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:61015 #17 (3 connections now open)
+2017-10-14T14:03:16.877+0530 I -        [conn5] end connection 127.0.0.1:61014 (3 connections now open)
+2017-10-14T14:03:16.881+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:61016 #18 (3 connections now open)
+2017-10-14T14:03:16.890+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:61017 #19 (4 connections now open)
+2017-10-14T14:03:16.924+0530 I -        [conn6] end connection 127.0.0.1:61015 (4 connections now open)
+2017-10-14T14:03:17.119+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:61018 #20 (4 connections now open)
+2017-10-14T14:03:28.487+0530 I -        [conn8] end connection 127.0.0.1:61017 (4 connections now open)
+2017-10-14T14:03:28.487+0530 I -        [conn9] end connection 127.0.0.1:61018 (4 connections now open)
+2017-10-14T14:03:28.487+0530 I -        [conn7] end connection 127.0.0.1:61016 (3 connections now open)
+2017-10-14T14:04:11.162+0530 I NETWORK  [websvr] Socket recv() A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 127.0.0.1:61034
+2017-10-14T14:04:32.803+0530 I NETWORK  [websvr] Socket recv() A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 127.0.0.1:61037
+2017-10-14T14:04:38.120+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:61043 #41 (2 connections now open)
+2017-10-14T14:04:38.121+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:61044 #42 (3 connections now open)
+2017-10-14T14:04:38.122+0530 I -        [conn10] end connection 127.0.0.1:61043 (3 connections now open)
+2017-10-14T14:04:38.123+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:61045 #43 (3 connections now open)
+2017-10-14T14:04:38.166+0530 I -        [conn11] end connection 127.0.0.1:61044 (3 connections now open)
+2017-10-14T14:04:38.371+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:61046 #44 (3 connections now open)
+2017-10-14T14:04:54.886+0530 I -        [conn12] end connection 127.0.0.1:61045 (3 connections now open)
+2017-10-14T14:04:54.887+0530 I -        [conn13] end connection 127.0.0.1:61046 (2 connections now open)
+2017-10-14T14:12:21.160+0530 I COMMAND  [conn1] command LMCertificationsDB.DB_REGISTRATION_DETAILS appName: "MongoDB Shell" command: create { create: "DB_REGISTRATION_DETAILS" } numYields:0 reslen:22 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } } } protocol:op_command 259ms
+2017-10-14T15:13:06.631+0530 I CONTROL  [thread2] CTRL_CLOSE_EVENT signal
+2017-10-14T15:13:06.632+0530 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2017-10-14T15:13:06.632+0530 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-10-14T15:13:06.633+0530 I NETWORK  [consoleTerminate] closing listening socket: 520
+2017-10-14T15:13:06.633+0530 I NETWORK  [consoleTerminate] closing listening socket: 524
+2017-10-14T15:13:06.633+0530 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-10-14T15:13:06.633+0530 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-10-14T15:13:06.649+0530 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-10-14T15:13:06.817+0530 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-10-14T15:13:06.817+0530 I CONTROL  [consoleTerminate] now exiting
+2017-10-14T15:13:06.817+0530 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-10-14T15:13:06.817+0530 I 

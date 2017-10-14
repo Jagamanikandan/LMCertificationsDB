@@ -1,0 +1,34 @@
+>mongod.exe --dbpath "C:\Users\jagam\git\LMCerertificationsDB\data\db" --rest --logpath "C:\Users\jagam\git\LMCerertificationsDB\log\mongoDB.log" --logappend --directoryperdb
+
+mongo.exe
+
+use LMCertificationsDB
+
+db.createCollection('DB_CERTIFICATION_DETAILS')
+db.createCollection('DB_LOGIN_DETAILS')
+db.createCollection('DB_REGISTRATION_DETAILS')
+
+db.DB_CERTIFICATION_DETAILS.insert([
+{
+EmployeeNumber: "123456",
+EmployeeName: "Jaga",
+CertificationId: "10111",
+CertificationMode: "10",
+CompletedOn: "10/14/2017",
+Score: "100",
+Grade: "A",
+Status: "Acquired"
+},
+{
+EmployeeNumber: "234567",
+EmployeeName: "Madhu",
+CertificationId: "10112",
+CertificationMode: "10",
+CompletedOn: "10/14/2017",
+Score: "98",
+Grade: "A",
+Status: "Acquired"
+}
+]);
+
+db.DB_CERTIFICATION_DETAILS.find().pretty()

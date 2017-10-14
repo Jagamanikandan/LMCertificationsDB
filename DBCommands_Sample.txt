@@ -1,4 +1,6 @@
->mongod.exe --dbpath "C:\Users\jagam\git\LMCerertificationsDB\data\db" --rest --logpath "C:\Users\jagam\git\LMCerertificationsDB\log\mongoDB.log" --logappend --directoryperdb
+cd Program Files\MongoDB\Server\3.4\bin
+
+mongod.exe --dbpath "C:\Users\jagam\git\LMCertificationsDB\data\db" --rest --logpath "C:\Users\jagam\git\LMCertificationsDB\log\mongoDB.log" --logappend --directoryperdb
 
 mongo.exe
 

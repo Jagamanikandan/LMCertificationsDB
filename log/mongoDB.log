@@ -96,4 +96,81 @@
 2017-10-14T15:13:06.817+0530 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
 2017-10-14T15:13:06.817+0530 I CONTROL  [consoleTerminate] now exiting
 2017-10-14T15:13:06.817+0530 I CONTROL  [consoleTerminate] shutting down with code:12
-2017-10-14T15:13:06.817+0530 I 
+2017-10-14T15:13:06.817+0530 I 2017-10-14T15:39:47.193+0530 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-14T15:39:47.608+0530 I CONTROL  [initandlisten] MongoDB starting : pid=1060 port=27017 dbpath=C:\Users\jagam\git\LMCertificationsDB\data\db 64-bit host=LAPTOP-R3HMSK5P
+2017-10-14T15:39:47.609+0530 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-14T15:39:47.609+0530 I CONTROL  [initandlisten] db version v3.4.9
+2017-10-14T15:39:47.609+0530 I CONTROL  [initandlisten] git version: 876ebee8c7dd0e2d992f36a848ff4dc50ee6603e
+2017-10-14T15:39:47.609+0530 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-10-14T15:39:47.609+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-14T15:39:47.609+0530 I CONTROL  [initandlisten] modules: none
+2017-10-14T15:39:47.609+0530 I CONTROL  [initandlisten] build environment:
+2017-10-14T15:39:47.609+0530 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-14T15:39:47.609+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-14T15:39:47.609+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-14T15:39:47.609+0530 I CONTROL  [initandlisten] options: { net: { http: { RESTInterfaceEnabled: true, enabled: true } }, storage: { dbPath: "C:\Users\jagam\git\LMCertificationsDB\data\db", directoryPerDB: true }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\jagam\git\LMCertificationsDB\log\mongoDB.log" } }
+2017-10-14T15:39:47.610+0530 I -        [initandlisten] Detected data files in C:\Users\jagam\git\LMCertificationsDB\data\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-14T15:39:47.610+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3526M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-14T15:39:48.484+0530 I CONTROL  [initandlisten] 
+2017-10-14T15:39:48.484+0530 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-10-14T15:39:48.485+0530 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-10-14T15:39:48.485+0530 I CONTROL  [initandlisten] 
+2017-10-14T15:39:48.491+0530 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-14T15:39:48.982+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/jagam/git/LMCertificationsDB/data/db/diagnostic.data'
+2017-10-14T15:39:48.984+0530 I NETWORK  [thread1] waiting for connections on port 27017
+2017-10-14T15:40:39.868+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:61435 #1 (1 connection now open)
+2017-10-14T15:40:39.869+0530 I NETWORK  [conn1] received client metadata from 127.0.0.1:61435 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.9" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-10-14T16:32:49.428+0530 I COMMAND  [PeriodicTaskRunner] task: UnusedLockCleaner took: 355ms
+2017-10-14T16:37:25.612+0530 I COMMAND  [conn1] command admin.$cmd appName: "MongoDB Shell" command: listDatabases { listDatabases: 1.0 } numYields:0 reslen:226 locks:{ Global: { acquireCount: { r: 8 } }, Database: { acquireCount: { r: 3 } } } protocol:op_command 220ms
+2017-10-14T16:41:04.307+0530 I COMMAND  [conn1] command test.DB_CERTIFICATION_DETAILS appName: "MongoDB Shell" command: create { create: "DB_CERTIFICATION_DETAILS" } numYields:0 reslen:22 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } } } protocol:op_command 521ms
+2017-10-14T16:41:46.673+0530 I COMMAND  [conn1] command test.DB_LOGIN_DETAILS appName: "MongoDB Shell" command: create { create: "DB_LOGIN_DETAILS" } numYields:0 reslen:22 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } } } protocol:op_command 113ms
+2017-10-14T16:47:22.571+0530 I COMMAND  [conn1] command test.DB_CERTIFICATION_DETAILS appName: "MongoDB Shell" command: find { find: "DB_CERTIFICATION_DETAILS", filter: {} } planSummary: COLLSCAN keysExamined:0 docsExamined:2 cursorExhausted:1 numYields:0 nreturned:2 reslen:512 locks:{ Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } } } protocol:op_command 155ms
+2017-10-14T16:56:28.630+0530 I -        [conn1] end connection 127.0.0.1:61435 (1 connection now open)
+2017-10-14T16:56:40.969+0530 I CONTROL  [thread2] CTRL_CLOSE_EVENT signal
+2017-10-14T16:56:40.970+0530 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2017-10-14T16:56:40.998+0530 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-10-14T16:56:41.009+0530 I NETWORK  [consoleTerminate] closing listening socket: 544
+2017-10-14T16:56:41.009+0530 I NETWORK  [consoleTerminate] closing listening socket: 548
+2017-10-14T16:56:41.010+0530 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-10-14T16:56:41.012+0530 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-10-14T16:56:41.087+0530 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-10-14T16:56:41.541+0530 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-10-14T16:56:41.561+0530 I CONTROL  [consoleTerminate] now exiting
+2017-10-14T16:56:41.563+0530 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-10-14T16:57:45.714+0530 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-10-14T16:57:46.365+0530 I CONTROL  [initandlisten] MongoDB starting : pid=6980 port=27017 dbpath=C:\Users\jagam\git\LMCertificationsDB\data\db 64-bit host=LAPTOP-R3HMSK5P
+2017-10-14T16:57:46.365+0530 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-14T16:57:46.365+0530 I CONTROL  [initandlisten] db version v3.4.9
+2017-10-14T16:57:46.365+0530 I CONTROL  [initandlisten] git version: 876ebee8c7dd0e2d992f36a848ff4dc50ee6603e
+2017-10-14T16:57:46.365+0530 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-10-14T16:57:46.365+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-14T16:57:46.365+0530 I CONTROL  [initandlisten] modules: none
+2017-10-14T16:57:46.365+0530 I CONTROL  [initandlisten] build environment:
+2017-10-14T16:57:46.365+0530 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-14T16:57:46.365+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-14T16:57:46.365+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-14T16:57:46.365+0530 I CONTROL  [initandlisten] options: { net: { http: { RESTInterfaceEnabled: true, enabled: true } }, storage: { dbPath: "C:\Users\jagam\git\LMCertificationsDB\data\db", directoryPerDB: true }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\jagam\git\LMCertificationsDB\log\mongoDB.log" } }
+2017-10-14T16:57:46.374+0530 I -        [initandlisten] Detected data files in C:\Users\jagam\git\LMCertificationsDB\data\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-10-14T16:57:46.374+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3526M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-10-14T16:57:46.825+0530 I CONTROL  [initandlisten] 
+2017-10-14T16:57:46.825+0530 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-10-14T16:57:46.825+0530 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-10-14T16:57:46.825+0530 I CONTROL  [initandlisten] 
+2017-10-14T16:57:46.878+0530 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2017-10-14T16:57:49.128+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/jagam/git/LMCertificationsDB/data/db/diagnostic.data'
+2017-10-14T16:57:49.134+0530 I NETWORK  [thread1] waiting for connections on port 27017
+2017-10-14T16:58:24.254+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:61868 #1 (1 connection now open)
+2017-10-14T16:58:24.256+0530 I NETWORK  [conn1] received client metadata from 127.0.0.1:61868 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.9" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-10-14T17:40:40.795+0530 I -        [conn1] end connection 127.0.0.1:61868 (1 connection now open)
+2017-10-14T17:40:46.205+0530 I CONTROL  [thread2] CTRL_CLOSE_EVENT signal
+2017-10-14T17:40:46.205+0530 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2017-10-14T17:40:46.205+0530 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-10-14T17:40:46.205+0530 I NETWORK  [consoleTerminate] closing listening socket: 524
+2017-10-14T17:40:46.205+0530 I NETWORK  [consoleTerminate] closing listening socket: 528
+2017-10-14T17:40:46.206+0530 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-10-14T17:40:46.206+0530 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-10-14T17:40:46.227+0530 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-10-14T17:40:46.447+0530 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-10-14T17:40:46.447+0530 I CONTROL  [consoleTerminate] now exiting
+2017-10-14T17:40:46.448+0530 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-10-14T17:40:46.448+0530 I 
